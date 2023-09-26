@@ -245,7 +245,6 @@ def get_config(
         "--ws.origins=*",
         "--allow-insecure-unlock",
         "--nat=extip:" + PRIVATE_IP_ADDRESS_PLACEHOLDER,
-        "--verbosity=" + verbosity_level,
         "--authrpc.port={0}".format(ENGINE_RPC_PORT_NUM),
         "--authrpc.addr=0.0.0.0",
         "--authrpc.vhosts=*",
